@@ -1,0 +1,23 @@
+{
+  "name": "dev-env",
+  "version": "1.0.0",
+  "description": "Welcome to the Automated Development Environment, a custom WSL distro designed to get your development environment up and running smoothly.",
+  "main": "index.js",
+  "keywords": [
+    "wsl",
+    "setup",
+    "automation",
+    "environment",
+    "configuration",
+    "bash",
+    "devops",
+    "developer-tools"
+  ],
+  "author": "Dylan Miller",
+  "license": "ISC",
+  "dependencies": {
+    "figlet": "^1.6.0",
+    "ora": "^5.4.1",
+    "yargs": "^17.7.2"
+  }
+}

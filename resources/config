@@ -1,0 +1,20 @@
+#This is a placeholder file and will be changed with to fit user environment with ```microk8s config > /home/<username>.kube/config```
+apiVersion: v1
+clusters:
+- cluster:
+    certificate-authority-data:
+    server: https://127.0.0.1:16443
+  name: microk8s-cluster
+contexts:
+- context:
+    cluster: microk8s-cluster
+    namespace: default
+    user: admin
+  name: microk8s
+current-context: microk8s
+kind: Config
+preferences: {}
+users:
+- name: admin
+  user:
+    token: 
