@@ -163,8 +163,6 @@ export PATH=$PATH:$HOME/.dotnet
 export PATH=$PATH:$HOME/repos
 #MICROK8S
 export PATH=/snap/bin:$PATH
-#Kube config
-export KUBECONFIG="$HOME/.kube/config"
 #NVM
 export NVM_DIR="$HOME/.nvm"
 export NVM_DIR="$HOME/.nvm"
