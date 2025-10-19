@@ -2,8 +2,8 @@
 # [network]
 # generateHosts = true
 127.0.0.1	localhost
-127.0.1.1	$(hostname).aunalytics.com	$(hostname)
-127.0.1.1	ubuntu-wsl.aunalytics.com	ubuntu-wsl
+127.0.1.1	$(hostname).<redacted domain>.com	$(hostname)
+127.0.1.1	ubuntu-wsl.<redacted domain>.com	ubuntu-wsl
 
 10.120.10.58	host.docker.internal
 10.120.10.58	gateway.docker.internal
